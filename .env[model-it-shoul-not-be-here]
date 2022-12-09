@@ -1,0 +1,20 @@
+DEBUG=false
+
+DJANGO_SECRET_KEY='django-insecure-rdbddx-2d+=f+ninewz86@6k=su4+3px-(=3-sb(s@+6@zhr#o'
+
+DJANGO_SUPERUSER_NAME=admin
+DJANGO_SUPERUSER_EMAIL=admin@email.com
+DJANGO_SUPERUSER_PASSWORD=admin12345
+
+DJANGO_ALLOWED_HOSTS="{'localhost': 'localhost', 'local': '127.0.0.1'}"
+
+DATABASE=postgres
+
+DATABASE_ENGINE=django.db.backends.postgresql
+DATABASE_NAME=game_of_thrones
+DATABASE_USER=postgres
+DATABASE_PASSWORD=postgres123
+DATABASE_HOST=database
+DATABASE_PORT=5432
+
+REDIS_PASSWORD=redis1

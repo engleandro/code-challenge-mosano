@@ -18,7 +18,7 @@ poetry run bandit -r tests
 
 echo "Django check..."
 
-#poetry run python manage.py test
+poetry run python manage.py test
 poetry run python manage.py check --deploy
 
 echo "Unit Testing..."

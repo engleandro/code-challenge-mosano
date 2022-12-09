@@ -5,9 +5,8 @@ Mosano Code Challenge.
 ## GETTING STARTED
 
 This projects is an API platform based on Python and Django to provide data on Game of Thrones.
-An application that can show the great houses of the Seven Kingdoms with a few members.
 
-The data available are:
+An application that can show the great houses of the Seven Kingdoms with a few members. The data available are:
 * Houses (only the great houses)
 * Members (some character on each great house)
 
@@ -64,7 +63,7 @@ or you can try out test it on:
 * /api/v1/doc/
 * /api/v1/redoc/
 
-Any doubt, please check on documentations and/or contact me on alves.engleandro@gmail.com.
+Any doubt, please check on documentation and/or contact me (alves.engleandro@gmail.com).
 
 ## QUALITY STANDARDS
 

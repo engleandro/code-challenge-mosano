@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "code-challenge-mosano"
+version = "0.1.0"
+description = "\"Mosano Code Challenge\""
+authors = ["alves.engleandro <alves.engleandro@gmail.com>"]
+readme = "README.md"
+packages = [{include = "code_challenge_mosano"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.1.4"
+djangorestframework = "^3.14.0"
+drf-yasg = "^1.21.4"
+djangorestframework-simplejwt = "^5.2.2"
+django-allauth = "^0.51.0"
+dj-rest-auth = "^2.2.5"
+gunicorn = "^20.1.0"
+redis = "^4.4.0"
+django-filter = "^22.1"
+python-dotenv = "^0.21.0"
+psycopg = {extras = ["binary"], version = "^3.1.4"}
+psycopg-binary = "^3.1.4"
+psycopg2-binary = "^2.9.5"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
+flake8 = "^6.0.0"
+bandit = "^1.7.4"
+pytest = "^7.2.0"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
